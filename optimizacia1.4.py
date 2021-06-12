@@ -69,6 +69,7 @@ class optimization_cutting:
             print('|' * (int(sum(i))), '.' * int((200 - (sum(i)))))
         return self.luchiy_raskroy
     print('Учим гит')
+    print('Первый комит')
 if __name__ == '__main__':
     proba_1 = optimization_cutting((23, 23, 23, 58, 61, 78, 81, 86, 86, 91, 94, 97, 105, 112), 200, 0)
     print(proba_1.get_raskroy())
